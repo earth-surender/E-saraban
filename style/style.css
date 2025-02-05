@@ -77,3 +77,21 @@ body {
     background-repeat: no-repeat;
     background-image: url(../public/png/alarm-clock.png);
 }
+
+.side-menu {
+    background-color: #68CAD7;
+}
+
+.text-menu {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.create-book {
+    background-color: #FB9C80;
+}
+.doing-book {
+    background-color: #AABBF3;
+}
+.done-book {
+    background-color: #68CAD7;
+}
