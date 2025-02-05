@@ -39,16 +39,63 @@
         </div>
     </div>
     
-    <div class="body-part px-10 flex w-full h-9/10 bg-red-500">
+    <div class="body-part p-5 gap-5 flex w-full h-dvh bg-red-500">
 
-        <div class="side-menu w-ct-15 bg-red-500">Lorem ipsum dolor sit amet.</div>
+        <div class="side-menu pt-40 gap-10 w-32 flex flex-col items-center">
+            <div class="admin-box flex flex-col items-center cursor-pointer transition-transform duration-300 ease-in-out hover:scale-[1.2] text-white hover:text-gray-700">
+                <img src="../public/png/admin.png" class="">
+                <p class="text-menu">admin</p>
+            </div>
+            <div class="admin-box flex flex-col items-center cursor-pointer transition-transform duration-300 ease-in-out hover:scale-[1.2] text-white hover:text-gray-700">
+                <img src="../public/png/exp-book.png" class="">
+                <p class="text-menu">หนังสือส่งออก</p>
+            </div>
+            <div class="admin-box flex flex-col items-center cursor-pointer transition-transform duration-300 ease-in-out hover:scale-[1.2] text-white hover:text-gray-700">
+                <img src="../public/png/inp-book.png" class="">
+                <p class="text-menu">หนังสือรับ</p>
+            </div>
+            <div class="admin-box flex flex-col items-center cursor-pointer transition-transform duration-300 ease-in-out hover:scale-[1.2] text-white hover:text-gray-700">
+                <img src="../public/png/pers-info.png" class="">
+                <p class="text-menu">ข้อมูลส่วนตัว</p>
+            </div>
+        </div>
 
-        <div class="table-info w-full bg-green-500">Lorem ipsum dolor sit amet.</div>
+        <div class="infomation w-full flex flex-col items-center bg-green-500">
+            <div class="topic w-full items-start bg-blue-500">
+                <p class="text-2xl">รายการหนังสือส่ง (ภายนอก)</p>
+            </div>
+
+            <div class="status-send w-full items-start mt-5">
+                <!-- ตัวบอก status -->
+                 เว้น ไว้ ก่อน
+            </div>
+
+            <div class="menusend-top w-5/6 mt-10 gap-10 flex justify-center items-center bg-orange-500">
+
+                <div class="create-book w-1/5 h-30 flex flex-col justify-center items-center  rounded-3xl">
+                    <div class="absolute top-45"><img src="../public/png/create-book.png" class=""></div>
+                    <p class="text-xl text-white">สร้างหนังสือส่งภายนอก</p>
+                </div>
+
+                <div class="doing-book w-1/5 h-30 flex flex-col justify-center items-center  rounded-3xl">
+                    <div class="absolute top-45"><img src="../public/png/doing-book.png" class=""></div>
+                    <p class="text-xl text-white">กำลังดำเนินการ</p>
+                </div>
+
+                <div class="done-book w-1/5 flex h-30 flex-col justify-center items-center  rounded-3xl">
+                    <div class="absolute top-46"><img src="../public/png/done-book.png" class=""></div>
+                    <p class="text-xl text-white">ดำเนินการส่งสำเร็จ</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-info"> ***ตารางข้อมูล*** </div>
+
+        
 
     </div>
 
 
 <script src="../script/script.js"></script>
-<script src="../script/config.tailwind.js"></script>
 </body>
 </html>
